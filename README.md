@@ -7,6 +7,8 @@ Po pobraniu projektu w głównym katalogu uruchom (w PowerShell/CMD/Bash):
 
 ```bash
 docker build -t zadanie-lab5 --build-arg APP_VERSION=2.3.4 .
+```
 
 ```bash
 docker run -d -p 8080:80 --name kontener-lab5 zadanie-lab5
+```
