@@ -6,7 +6,7 @@
 Po pobraniu projektu w głównym katalogu uruchom (w PowerShell/CMD/Bash):
 
 ```bash
-docker build -t zadanie-lab5 --build-arg APP_VERSION=2.3.4 .
+docker build -t zadanie-lab5 --build-arg APP_VERSION=1.0 .
 ```
 
 ```bash
